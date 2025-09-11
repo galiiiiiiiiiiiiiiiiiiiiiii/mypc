@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My PC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/Logo.png" alt="MyPc" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="katalog.html">Katalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dokumentasi.html">Dokumentasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cari Part" aria-label="Cari" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="promoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.jpg" class="d-block w-100" alt="Promo 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner2.jpg" class="d-block w-100" alt="Promo 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner3.jpg" class="d-block w-100" alt="Promo 3" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#promoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#promoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <!-- Container Kategori -->
+    <div class="container my-5">
+      <div class="card shadow-sm">
+        <div class="card-header bg-orange text-white fw-bold">Kategori</div>
+        <div class="card-body categories-body">
+          <div class="categories">
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/pc.png" alt="pc ready" />
+              </div>
+              <h6 class="mt-2 mb-0">PC</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">GPU</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">CPU</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">Power Supply</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">Mouse</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">Keyboard</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">Headset</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <div class="category-item">
+              <div class="category-icon">
+                <img src="img/cpu.png" alt="cpu" />
+              </div>
+              <h6 class="mt-2 mb-0">Monitor</h6>
+              <small class="text-muted">57 Products</small>
+            </div>
+            <!-- tambah item lain di sini -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
